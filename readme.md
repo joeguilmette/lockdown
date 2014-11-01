@@ -1,7 +1,8 @@
-#Create script
-`$ sudo mkdir /etc/lockdown`
+#Clone script
+`$ git clone git@github.com:joeguilmette/lockdown.git ~/lockdown`
+`$ sudo mv ~/lockdown /etc/lockdown`
 
-`$ sudo git clone git.lockdown.url /etc`
+If you get a `Permission denied (publickey)`, you need to [add your ssh-key to githubg](https://github.com/settings/ssh).
 
 #Make in runnable
 `$ export PATH="$PATH:/etc/lockdown"`
