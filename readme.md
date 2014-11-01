@@ -1,5 +1,6 @@
 #Clone script
 `$ git clone git@github.com:joeguilmette/lockdown.git ~/lockdown`
+
 `$ sudo mv ~/lockdown /etc/lockdown`
 
 If you get a `Permission denied (publickey)`, you need to [add your ssh-key to githubg](https://github.com/settings/ssh).
@@ -16,10 +17,10 @@ If you get a `Permission denied (publickey)`, you need to [add your ssh-key to g
 #Usage
 
 - Allow www-data to have a Bash shell for rsync purposes
-`$ sudo openitup`
+`$ openitup`
 
 - Rsync your files to /var/www
 `$ wordmove push --all`
 
 - Lockdown your server
-`$ sudo lockdown`
+`$ lockdown`
