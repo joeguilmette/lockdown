@@ -1,3 +1,6 @@
+#Safely using Wordmove with www-data
+Web server uses www-data? Want to use ssh with www-data without exposing your server to attack? This script will give www-data a bash shell so you can do you business, and then it will close it right back up. It'll even fix all your permissions in /var/www.
+
 #Clone script
 `$ git clone git@github.com:joeguilmette/lockdown.git ~/lockdown`
 
