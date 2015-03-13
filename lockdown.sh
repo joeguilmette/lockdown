@@ -12,6 +12,11 @@ sudo chmod 600 /var/www/.ssh/authorized_keys
 sudo chmod 600 /var/www/.ssh/id_rsa
 sudo chmod 644 /var/www/.ssh/id_rsa.pub
 sudo chown -R www-data:www-data /var/www/.ssh
+sudo chmod 777 /var/www/eqms*/dcc
+sudo chmod 777 /var/www/eqms*/dcc/images
+sudo chmod 777 /var/www/eqms*/images
+sudo chmod 777 /var/www/eqms*/temp
+
 
 echo "Current www-data shell settings:"  
 cat /etc/passwd | grep www-data  
